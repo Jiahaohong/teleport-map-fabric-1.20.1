@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teleportmap:empty_teleport_map"
+    },
+    {
+      "item": "minecraft:recovery_compass"
+    }
+  ],
+  "result": {
+    "item": "teleportmap:empty_recovery_map"
+  }
+}
