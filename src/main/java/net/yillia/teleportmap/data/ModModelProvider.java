@@ -21,5 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.EMPTY_TELEPORT_MAP, Models.GENERATED);
         itemModelGenerator.register(ModItems.TELEPORT_MAP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMPTY_RECOVERY_MAP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RECOVERY_MAP, Models.GENERATED);
     }
 }

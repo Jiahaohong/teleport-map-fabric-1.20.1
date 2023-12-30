@@ -17,7 +17,10 @@ public class ModLangProvider {
             translationBuilder.add("minecraft:the_end", "End");
             translationBuilder.add(ModItems.EMPTY_TELEPORT_MAP, "Empty Teleport Map");
             translationBuilder.add(ModItems.TELEPORT_MAP, "Teleport Map");
+            translationBuilder.add(ModItems.EMPTY_RECOVERY_MAP, "Empty Recovery Map");
+            translationBuilder.add(ModItems.RECOVERY_MAP, "Recovery Map");
             translationBuilder.add("teleportmap.item.teleport_map.dimension_mismatch", "Dimension Mismatches");
+            translationBuilder.add("teleportmap.item.recovery_map.death_point_not_found", "Death Point Not Found");
         }
     }
 
@@ -33,7 +36,10 @@ public class ModLangProvider {
             translationBuilder.add("minecraft:the_end", "末地");
             translationBuilder.add(ModItems.EMPTY_TELEPORT_MAP, "空传送地图");
             translationBuilder.add(ModItems.TELEPORT_MAP, "传送地图");
+            translationBuilder.add(ModItems.EMPTY_RECOVERY_MAP, "空追溯地图");
+            translationBuilder.add(ModItems.RECOVERY_MAP, "追溯地图");
             translationBuilder.add("teleportmap.item.teleport_map.dimension_mismatch", "维度不匹配");
+            translationBuilder.add("teleportmap.item.recovery_map.death_point_not_found", "死亡点不存在");
         }
     }
 }

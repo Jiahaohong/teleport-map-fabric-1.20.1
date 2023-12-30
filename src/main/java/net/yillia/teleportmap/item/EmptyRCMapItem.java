@@ -4,8 +4,10 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.EmptyMapItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
@@ -33,6 +35,7 @@ public class EmptyRCMapItem extends EmptyMapItem {
             user.getWorld().playSoundFromEntity(null, user, SoundEvents.UI_CARTOGRAPHY_TABLE_TAKE_RESULT, user.getSoundCategory(), 1.0f, 1.0f);
             Optional<GlobalPos> lastDeathPos = user.getLastDeathPos();
             if (lastDeathPos.isEmpty()) {
+                ((ServerPlayerEntity)user).sendMessage(Text.translatable("teleportmap.item.recovery_map.death_point_not_found"), true);
                 return TypedActionResult.success(itemstack);
             } else {
                 BlockPos blockPos = lastDeathPos.get().getPos();

@@ -1,3 +1,7 @@
-// 1.20.1	2023-12-30T17:54:42.1284452	Teleport Map/Recipes
+// 1.20.1	2023-12-30T18:28:22.4885496	Teleport Map/Recipes
+a1a4a6c138d4ad956cff75f27f885ceb45cc4626 data\teleportmap\advancements\recipes\misc\empty_recovery_map.json
+17cdbe676624f6e21090f1164a3cd08f7b1de999 data\teleportmap\recipes\empty_recovery_map.json
 269cb1ee921c24c01da19692fe3f90d38050ce3b data\teleportmap\recipes\empty_teleport_map.json
 31e7585a56ed326c1a3700388872888b47df812a data\teleportmap\advancements\recipes\misc\empty_teleport_map.json
+b70e139a79d0a712f6095f3d38d3f21815b288cd data\teleportmap\recipes\empty_recovery_map_erased.json
+4997e94d686657bc1a9bb514773777657bac535b data\teleportmap\advancements\recipes\misc\empty_recovery_map_erased.json

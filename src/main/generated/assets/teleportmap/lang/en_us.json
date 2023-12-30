@@ -1,8 +1,11 @@
 {
+  "item.teleportmap.empty_recovery_map": "Empty Recovery Map",
   "item.teleportmap.empty_teleport_map": "Empty Teleport Map",
+  "item.teleportmap.recovery_map": "Recovery Map",
   "item.teleportmap.teleport_map": "Teleport Map",
   "minecraft:overworld": "Overworld",
   "minecraft:the_end": "End",
   "minecraft:the_nether": "Nether",
+  "teleportmap.item.recovery_map.death_point_not_found": "Death Point Not Found",
   "teleportmap.item.teleport_map.dimension_mismatch": "Dimension Mismatches"
 }

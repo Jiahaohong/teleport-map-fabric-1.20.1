@@ -1,8 +1,11 @@
 {
+  "item.teleportmap.empty_recovery_map": "空追溯地图",
   "item.teleportmap.empty_teleport_map": "空传送地图",
+  "item.teleportmap.recovery_map": "追溯地图",
   "item.teleportmap.teleport_map": "传送地图",
   "minecraft:overworld": "主世界",
   "minecraft:the_end": "末地",
   "minecraft:the_nether": "下界",
+  "teleportmap.item.recovery_map.death_point_not_found": "死亡点不存在",
   "teleportmap.item.teleport_map.dimension_mismatch": "维度不匹配"
 }

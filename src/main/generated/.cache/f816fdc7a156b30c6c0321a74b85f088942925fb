@@ -1,3 +1,5 @@
-// 1.20.1	2023-12-30T17:54:42.1274476	Teleport Map/Model Definitions
+// 1.20.1	2023-12-30T18:28:22.4875521	Teleport Map/Model Definitions
 c6f74d19df46c970756e889acaca9d9b7a2978fe assets\teleportmap\models\item\teleport_map.json
+6489025ca8aec4b22f023bf28c8f28400dd9cf8c assets\teleportmap\models\item\empty_recovery_map.json
+237f766d0a7e4d8d2ca6ad44da9d0ed5381e4db7 assets\teleportmap\models\item\recovery_map.json
 0fea18e979265951833482f3d6c75705e17f827a assets\teleportmap\models\item\empty_teleport_map.json
