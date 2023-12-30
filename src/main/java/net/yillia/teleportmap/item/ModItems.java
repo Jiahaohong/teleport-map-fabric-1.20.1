@@ -18,8 +18,13 @@ public class ModItems {
 
     public static final Item TELEPORT_MAP = registerItem("teleport_map", new TPMapItem(new FabricItemSettings()));
 
+    public static final Item EMPTY_RECOVERY_MAP = registerItem("empty_recovery_map", new EmptyRCMapItem(new FabricItemSettings()));
+
+    public static final Item RECOVERY_MAP = registerItem("recovery_map", new TPMapItem(new FabricItemSettings()));
+
     private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
         entries.add(EMPTY_TELEPORT_MAP);
+        entries.add(EMPTY_RECOVERY_MAP);
     }
 
     private static Item registerItem(String name, Item item) {

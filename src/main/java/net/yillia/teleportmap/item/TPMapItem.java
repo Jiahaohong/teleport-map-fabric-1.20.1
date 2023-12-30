@@ -76,7 +76,8 @@ public class TPMapItem extends Item {
 
         if (world.getRegistryKey() == globalPos.getDimension()) {
             world.playSound(null, user.getX(), user.getY(), user.getZ(), SoundEvents.ENTITY_ENDER_PEARL_THROW, SoundCategory.NEUTRAL, 0.5f, 0.4f / (world.getRandom().nextFloat() * 0.4f + 0.8f));
-            user.getItemCooldownManager().set(this, 20);
+            user.getItemCooldownManager().set(ModItems.TELEPORT_MAP, 20);
+            user.getItemCooldownManager().set(ModItems.RECOVERY_MAP, 20);
             if (user.hasVehicle()) {
                 user.stopRiding();
             }
