@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "teleportmap",
+	"version": "${version}",
+	"name": "Teleport Map",
+	"description": "Yillia's Teleport Map!",
+	"authors": [
+		"Yillia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/teleportmap/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yillia.teleportmap.TeleportMap"
+		],
+		"client": [
+			"net.yillia.teleportmap.TeleportMapClient"
+		],
+		"fabric-datagen": [
+			"net.yillia.teleportmap.TeleportMapDataGenerator"
+		]
+	},
+	"mixins": [
+		"teleportmap.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
