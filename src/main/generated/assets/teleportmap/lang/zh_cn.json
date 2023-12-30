@@ -1,0 +1,8 @@
+{
+  "item.teleportmap.empty_teleport_map": "空传送地图",
+  "item.teleportmap.teleport_map": "传送地图",
+  "minecraft:overworld": "主世界",
+  "minecraft:the_end": "末地",
+  "minecraft:the_nether": "下界",
+  "teleportmap.item.teleport_map.dimension_mismatch": "维度不匹配"
+}
