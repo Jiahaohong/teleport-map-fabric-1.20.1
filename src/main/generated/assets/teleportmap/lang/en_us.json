@@ -1,0 +1,8 @@
+{
+  "item.teleportmap.empty_teleport_map": "Empty Teleport Map",
+  "item.teleportmap.teleport_map": "Teleport Map",
+  "minecraft:overworld": "Overworld",
+  "minecraft:the_end": "End",
+  "minecraft:the_nether": "Nether",
+  "teleportmap.item.teleport_map.dimension_mismatch": "Dimension Mismatches"
+}

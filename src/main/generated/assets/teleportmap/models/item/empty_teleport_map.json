@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "teleportmap:item/empty_teleport_map"
+  }
+}
