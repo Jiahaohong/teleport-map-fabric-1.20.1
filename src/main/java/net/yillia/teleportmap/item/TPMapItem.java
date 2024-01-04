@@ -77,13 +77,9 @@ public class TPMapItem extends Item {
         if (world.getRegistryKey() == globalPos.getDimension()) {
             world.playSound(null, user.getX(), user.getY(), user.getZ(), SoundEvents.ENTITY_ENDER_PEARL_THROW, SoundCategory.NEUTRAL, 0.5f, 0.4f / (world.getRandom().nextFloat() * 0.4f + 0.8f));
             user.getItemCooldownManager().set(ModItems.TELEPORT_MAP, 20);
-            if (user.getInventory().contains(new ItemStack(ModItems.RECOVERY_MAP))) {
-                user.getItemCooldownManager().set(ModItems.RECOVERY_MAP, 20);
-            }
-            if (user.hasVehicle()) {
-                user.stopRiding();
-            }
-            user.teleport(blockPos.getX()+0.5, blockPos.getY()+1, blockPos.getZ()+0.5, true);
+            user.getItemCooldownManager().set(ModItems.RECOVERY_MAP, 20);
+            user.requestTeleport(blockPos.getX() + 0.5, blockPos.getY(), blockPos.getZ() + 0.5);
+            world.sendEntityStatus(user, (byte)46);
         }
         else {
             if (world.isClient()) {
